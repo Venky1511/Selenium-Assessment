@@ -32,7 +32,7 @@ driver = webdriver.Chrome()
 # print("Product in cart:", product)
 
 #########################################################################################################
-#2(issue)
+#2
 # Write a Selenium script to:
 # Open https://www.demowebshop.tricentis.com
 # Navigate to Electronics
@@ -131,7 +131,7 @@ driver = webdriver.Chrome()
 #     print(option.text)
 
 #########################################################################################################
-#7(issue)
+#7
 # Write a Selenium script to:
 # Open https://demoqa.com/menu/
 # Hover over Main Item 2
@@ -199,7 +199,7 @@ driver = webdriver.Chrome()
 # print(result)
 
 #########################################################################################################
-#10(issue)
+#10
 # Write a Selenium script to:
 # Open https://the-internet.herokuapp.com/upload
 # Upload a file from local system
@@ -220,7 +220,7 @@ driver = webdriver.Chrome()
 # print("Uploaded file:", driver.find_element(By.ID,"uploaded-files").text)
 
 #########################################################################################################
-#11(issue)
+#11
 # Write a Selenium script to:
 # Open https://the-internet.herokuapp.com/download
 # Download any file
@@ -265,7 +265,7 @@ driver = webdriver.Chrome()
 # print("Total products added:", len(rows)-1)
 
 #########################################################################################################
-#13(issue)
+#13
 # Write a Selenium script that:
 # Open https://demowebshop.tricentis.com
 # Navigate to Books
@@ -284,8 +284,6 @@ driver = webdriver.Chrome()
 #         time.sleep(1)
 #
 # print("Books below $20 added")
-#
-# #########################################################################################################
 #
 # driver.quit()
 #################################################################################################################
@@ -317,4 +315,5 @@ driver = webdriver.Chrome()
 #Ans: Explicit Wait is recommended for handling dynamic elements in Selenium
 # 3. Which Selenium class is used to handle dropdown listboxes?
 #Ans : Select class is used to handle dropdown listboxes
+
 
